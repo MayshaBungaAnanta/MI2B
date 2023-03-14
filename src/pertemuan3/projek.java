@@ -32,23 +32,23 @@ class Character extends Genshin {
  
 class Task1 {
   public static void main(String args[]){
-    Character CharacterCindy = new Character();
+    Character CharacterBunga = new Character();
     Scanner input = new Scanner(System.in);
     int level;
-    System.out.println(CharacterCindy.username);
+    System.out.println(CharacterBunga.username);
     System.out.print("masukkan level : ");
     level = input.nextInt();
     int n=4,i;
     
     if (level>=30){
         for(i=0;i<n;i++){
-        System.out.println(CharacterCindy.chara1);}
+        System.out.println(CharacterBunga.chara1);}
     }
     else{
         for(i=0;i<n;i++){
-        System.out.println(CharacterCindy.chara2);}
+        System.out.println(CharacterBunga.chara2);}
     }
-    System.out.println(CharacterCindy.cekGenshin());
-    System.out.println(CharacterCindy.cekCharacter());
+    System.out.println(CharacterBunga.cekGenshin());
+    System.out.println(CharacterBunga.cekCharacter());
   }
 }
